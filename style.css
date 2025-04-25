@@ -16,12 +16,21 @@ p {
 }
 a {
     color: cornsilk;
+    fill: cornsilk;
     font-style: bold;
+    transition: 0.3s;
+    padding: 0.5vw;
+    border-radius: 2px;
+}
+a:hover {
+    background-color: #fff8dc;
+    color: #1f444c;
+    fill: #1f444c;
 }
 svg {
     min-width: 2vw;
     min-height: 2vh;
-    fill: cornsilk;
+    /*fill: cornsilk;*/
     padding: 0px;
 }
 h1 {
@@ -153,7 +162,9 @@ footer p {
     justify-content: flex-start;
     margin: 0px;
     border-radius: 10px;
-
+}
+#socials article h3 {
+    margin-left: -0.5vw;
 }
 
 
